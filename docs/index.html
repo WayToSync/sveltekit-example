@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="default">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="IE=edge" />
+		<title>my-app</title>
+		<meta name="description" content="Documentation for my-app" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/style.css" />
+		<link rel="stylesheet" href="assets/highlight.css" />
+		<script async src="assets/search.js" id="search-script"></script>
+	</head>
+	<body>
+		<script>
+			document.body.classList.add(localStorage.getItem('tsd-theme') || 'os');
+		</script>
+		<header>
+			<div class="tsd-page-toolbar">
+				<div class="container">
+					<div class="table-wrap">
+						<div class="table-cell" id="tsd-search" data-base=".">
+							<div class="field">
+								<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label
+								><input type="text" id="tsd-search-field" />
+							</div>
+							<ul class="results">
+								<li class="state loading">Preparing search index...</li>
+								<li class="state failure">The search index is not available</li>
+							</ul>
+							<a href="index.html" class="title">my-app</a>
+						</div>
+						<div class="table-cell" id="tsd-widgets">
+							<div id="tsd-filter">
+								<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+								<div class="tsd-filter-group">
+									<div class="tsd-select" id="tsd-filter-visibility">
+										<span class="tsd-select-label">All</span>
+										<ul class="tsd-select-list">
+											<li data-value="public">Public</li>
+											<li data-value="protected">Public/Protected</li>
+											<li data-value="private" class="selected">All</li>
+										</ul>
+									</div>
+									<input type="checkbox" id="tsd-filter-inherited" checked /><label
+										class="tsd-widget"
+										for="tsd-filter-inherited"
+										>Inherited</label
+									><input type="checkbox" id="tsd-filter-externals" checked /><label
+										class="tsd-widget"
+										for="tsd-filter-externals"
+										>Externals</label
+									>
+								</div>
+							</div>
+							<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tsd-page-title">
+				<div class="container"><h1>my-app</h1></div>
+			</div>
+		</header>
+		<div class="container container-main">
+			<div class="row">
+				<div class="col-8 col-content">
+					<div class="tsd-panel tsd-typography">
+						<a
+							href="#create-svelte"
+							id="create-svelte"
+							style="color: inherit; text-decoration: none"
+						>
+							<h1>create-svelte</h1>
+						</a>
+						<p>
+							Everything you need to build a Svelte project, powered by
+							<a href="https://github.com/sveltejs/kit/tree/master/packages/create-svelte"
+								><code>create-svelte</code></a
+							>.
+						</p>
+
+						<a
+							href="#creating-a-project"
+							id="creating-a-project"
+							style="color: inherit; text-decoration: none"
+						>
+							<h2>Creating a project</h2>
+						</a>
+						<p>If you&#39;re seeing this, you&#39;ve probably already done this step. Congrats!</p>
+						<pre><code class="language-bash"><span class="hl-0"># create a new project in the current directory</span><br/><span class="hl-1">npm init svelte</span><br/><br/><span class="hl-0"># create a new project in my-app</span><br/><span class="hl-1">npm init svelte my-app</span>
+</code></pre>
+
+						<a href="#developing" id="developing" style="color: inherit; text-decoration: none">
+							<h2>Developing</h2>
+						</a>
+						<p>
+							Once you&#39;ve created a project and installed dependencies with
+							<code>npm install</code> (or <code>pnpm install</code> or <code>yarn</code>), start a
+							development server:
+						</p>
+						<pre><code class="language-bash"><span class="hl-1">npm run dev</span><br/><br/><span class="hl-0"># or start the server and open the app in a new browser tab</span><br/><span class="hl-1">npm run dev -- --open</span>
+</code></pre>
+
+						<a href="#building" id="building" style="color: inherit; text-decoration: none">
+							<h2>Building</h2>
+						</a>
+						<p>To create a production version of your app:</p>
+						<pre><code class="language-bash"><span class="hl-1">npm run build</span>
+</code></pre>
+						<p>You can preview the production build with <code>npm run preview</code>.</p>
+						<blockquote>
+							<p>
+								To deploy your app, you may need to install an
+								<a href="https://kit.svelte.dev/docs/adapters">adapter</a> for your target
+								environment.
+							</p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+					<nav aria-label="Navigation primary" class="tsd-navigation primary">
+						<ul>
+							<li class="current"><a href="modules.html">Exports</a></li>
+						</ul>
+					</nav>
+					<nav aria-label="Navigation secondary" class="tsd-navigation secondary menu-sticky">
+						<ul>
+							<li class="tsd-kind-function">
+								<a href="modules.html#del" class="tsd-kind-icon">del</a>
+							</li>
+							<li class="tsd-kind-function">
+								<a href="modules.html#get" class="tsd-kind-icon">get</a>
+							</li>
+							<li class="tsd-kind-function">
+								<a href="modules.html#patch" class="tsd-kind-icon">patch</a>
+							</li>
+							<li class="tsd-kind-function">
+								<a href="modules.html#post" class="tsd-kind-icon">post</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<footer class="with-border-bottom">
+			<div class="container">
+				<h2>Settings</h2>
+				<p>
+					Theme
+					<select id="theme">
+						<option value="os">OS</option>
+						<option value="light">Light</option>
+						<option value="dark">Dark</option>
+					</select>
+				</p>
+			</div>
+		</footer>
+		<div class="container tsd-generator">
+			<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+		</div>
+		<div class="overlay"></div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
