@@ -4,15 +4,20 @@ To create TS Documentation, use `npx typedoc`
 
 ## What to check and do
 
-- Config Prettier, ESLint and Typescript and cmd
+- Config ~~Prettier, ESLint and Typescript~~ and cmd
 - Install TailwindCSS
-- Config Playwright
+- ~~Config Playwright~~
 - Create a cmd for typeDoc
-- Config gitignore
+- ~~Config gitignore~~
 - Add mongoose for MongoDB and GraphQL
 - Config .env
 - Change name and title app
 - add new icon
+- Update ReadMe
+
+## Tips
+
+- put all dynamic image (part of components) in lib/assets. Other in static folder.
 
 ## create-svelte
 
